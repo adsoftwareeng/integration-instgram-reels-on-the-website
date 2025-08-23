@@ -20,8 +20,4 @@
       </div>
 
 <Br/>
-<Br/>
-<Br/>
-<Br/>
-<Br/>
 <script async src="//www.instagram.com/embed.js"></script>

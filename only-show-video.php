@@ -9,12 +9,12 @@
 </div>
 <script>
     // Replace with your actual access token
-const ACCESS_TOKEN = 'IGAAK2iZCGQubBBZAE14ZAzQ5WU5OLVRsdnNYWmxjb3FmOU95cmRIQ3VBeTkzRTdJYTViTlYxTE4xdTVsRnlJaF9wa1JpOWZAIZAU1LSXdLQ0gxRlZA6T2Y3S3o2eUNNdFFEMkw1cGw3YUhubk1qNlhydDlEYkZARZAmpPald2MHZAoUUc0UQZD';
+const ACCESS_TOKEN = 'Your_ACCESS_TOKEN';
 
 // HTML container
 // document.write('<div id="instagram-feed"></div>');
 
-fetch(`https://graph.instagram.com/me/media?fields=17841476768927737,media_type,media_url,thumbnail_url,permalink,caption,timestamp&access_token=${ACCESS_TOKEN}`)
+fetch(`https://graph.instagram.com/me/media?fields=APP_ID,media_type,media_url,thumbnail_url,permalink,caption,timestamp&access_token=${ACCESS_TOKEN}`)
   .then(res => res.json())
   .then(data => {
     const container = document.getElementById('instagram-feed');
